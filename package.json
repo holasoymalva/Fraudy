@@ -4,9 +4,9 @@
   "description": "Fraud detection platform and micro services",
   "main": "index.js",
   "scripts": {
-    "start-dev":"concurrently --handle-input \"yarn start-server\" \"yarn start-wapp\" ",
-    "start-wapp":"cd wapp && yarn start",
-    "start-server":"cd server && yarn start",
+    "start-dev": "concurrently \"yarn start-server\" \"yarn start-wapp\" ",
+    "start-wapp": "cd wapp && yarn start",
+    "start-server": "cd server && yarn start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/malvabombom/Fraudy/issues"
   },
-  "homepage": "https://github.com/malvabombom/Fraudy#readme"
+  "homepage": "https://github.com/malvabombom/Fraudy#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
 }
