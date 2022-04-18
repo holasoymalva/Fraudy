@@ -1,0 +1,24 @@
+{
+    "name": "fraudy-server",
+    "version": "1.0.0",
+    "description": "Fraud detection platform and micro services",
+    "main": "index.js",
+    "scripts": {
+        "start":"node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/malvabombom/Fraudy.git"
+    },
+    "keywords": [
+        "javascript",
+        "python"
+    ],
+    "author": "malvabombom",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/malvabombom/Fraudy/issues"
+    },
+    "homepage": "https://github.com/malvabombom/Fraudy#readme"
+}
